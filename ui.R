@@ -20,17 +20,8 @@ shinyUI(fluidPage(
     sidebarPanel(
       
        fileInput("data","Upload the data: "),
-       
-       sliderInput("bins","Number of bins: ",
-                   min = 1, 
-                   max = 100 , 
-                   value = 50),
-       
-       sliderInput("scorebins","Break duration: ",
-                   min = 10, 
-                   max = 50 , 
-                   value = 20),
-       
+       fileInput("segmentData","Upload the Segmentation data: "),
+       numericInput("bins","Number of bins: ",4,min=3,max=5),
        width = 3
     ),
     
@@ -63,8 +54,13 @@ shinyUI(fluidPage(
                   
                   tabPanel("Segmentation",
                            fluidRow("",
-                                    plotOutput("segment1"),
-                                    plotOutput("segment2"))
+                                    downloadButton('downloadSegmentData', 
+                                                   'Download Segmention data'),
+                                    splitLayout(
+                                      cellWidths = c("50%","50%"),
+                                      plotOutput("segment1"),
+                                      plotOutput("segment2"))
+                                    )
                            
                           )
       )
