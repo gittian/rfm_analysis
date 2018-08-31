@@ -18,6 +18,9 @@ shinyUI(fluidPage(
   # Sidebar with a slider input for number of bins 
   sidebarLayout(
     sidebarPanel(
+      
+       fileInput("data","Upload the data: "),
+       
        sliderInput("bins","Number of bins: ",
                    min = 1, 
                    max = 100 , 
@@ -60,15 +63,11 @@ shinyUI(fluidPage(
                   
                   tabPanel("Segmentation",
                            fluidRow("",
-                                    splitLayout(
-                                      cellWidths = c("50%","50%"),
-                                      plotOutput("segment1"),
-                                      plotOutput("segment2"))
-                           )
+                                    plotOutput("segment1"),
+                                    plotOutput("segment2"))
                            
-                  )
-                  
-      ) 
+                          )
+      )
     )
   )
 ))
