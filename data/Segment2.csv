@@ -1,0 +1,794 @@
+"customer_id","rfm_score","segment","recency_days","revenue"
+"Dennis_Kane",433,"Others",19,3317
+"Ed_Braxton",343,"loyals",48,3645
+"Neil_Franzsisch",111,"lost n cheap",525,377
+"Jasper_Cacioppo",211,"Others",114,72
+"Jim_Mitchum",411,"Others",8,865
+"Barry_Weirich",111,"lost n cheap",212,386
+"Kunst_Miller",434,"big spenders",28,4909
+"Laurel_Elliston",422,"Others",21,1469
+"Nat_Gilpin",312,"Others",48,1871
+"Cindy_Stewart",324,"big spenders",58,5691
+"Eugene_Hildebrand",243,"loyals",152,3083
+"Daniel_Raglin",334,"big spenders",50,8351
+"Stewart_Visinsky",144,"loyals",320,4104
+"Frank_Hawley",344,"loyals",37,4256
+"Dennis_Bolton",111,"lost n cheap",264,1081
+"Matt_Collins",432,"Others",27,1304
+"Dario_Medina",232,"Others",114,1322
+"Michael_Moore",444,"best.customers",7,3794
+"Tamara_Willingham",334,"big spenders",64,5279
+"Ann_Steele",231,"Others",92,833
+"Andy_Yotov",411,"Others",14,497
+"Benjamin_Patterson",312,"Others",39,1182
+"Shirley_Daniels",144,"loyals",200,6122
+"Chris_Selesnick",443,"loyals",26,2754
+"Mick_Crebagga",342,"loyals",41,2220
+"Karen_Bern",433,"Others",4,3153
+"Frank_Gastineau",332,"Others",34,1383
+"Todd_Sumrall",324,"big spenders",36,11892
+"Russell_Applegate",444,"best.customers",12,4793
+"Joy_Daniels",221,"Others",112,386
+"Dave_Hallsten",124,"big spenders",277,4934
+"Erica_Hackney",121,"Others",405,826
+"Arianne_Irving",444,"best.customers",13,4376
+"Ionia_McGrath",113,"Others",409,2872
+"Ken_Heidel",344,"loyals",58,3919
+"Logan_Currie",443,"loyals",13,2632
+"Greg_Maxwell",214,"big spenders",117,6050
+"Alejandro_Grove",113,"Others",278,2584
+"Evan_Bailliet",222,"Others",82,1187
+"Adrian_Barton",344,"loyals",41,14474
+"Vivek_Grady",111,"lost n cheap",286,427
+"Benjamin_Farhat",312,"Others",65,1586
+"Greg_Matthias",223,"Others",152,3164
+"Don_Miller",112,"Others",481,1377
+"Karl_Braun",142,"loyals",296,1570
+"Bruce_Stewart",433,"Others",1,2563
+"Georgia_Rosenberg",112,"Others",1136,1284
+"Laurel_Workman",212,"Others",88,2238
+"Craig_Molinari",114,"lost",1035,3985
+"Chris_Cortes",444,"best.customers",20,3913
+"Jeremy_Lonsdale",323,"Others",49,3173
+"Mitch_Webber",434,"big spenders",17,5341
+"Art_Foster",111,"lost n cheap",415,862
+"Michael_Grace",212,"Others",116,1241
+"Darren_Powers",241,"loyals",126,1052
+"Elizabeth_Moffitt",333,"Others",55,2340
+"Paul_Gonzalez",342,"loyals",57,1988
+"Bradley_Nguyen",412,"Others",9,1460
+"Matt_Connell",233,"Others",112,2258
+"Janet_Molinari",312,"Others",37,1804
+"Dave_Brooks",434,"big spenders",16,4532
+"Liz_MacKendrick",112,"Others",391,1347
+"Duane_Benoit",432,"Others",12,1156
+"Christine_Kargatis",213,"Others",120,2946
+"Stefania_Perrino",344,"loyals",47,5442
+"Thomas_Boland",313,"Others",58,3589
+"Bradley_Talbott",213,"Others",91,2685
+"Mark_Haberlin",111,"lost n cheap",376,401
+"John_Grady",122,"Others",223,1507
+"Cyma_Kinney",242,"loyals",82,1581
+"Sam_Zeldin",343,"loyals",35,3627
+"Paul_Knutson",112,"Others",483,1441
+"Duane_Huffman",111,"lost n cheap",776,1043
+"Arthur_Prichep",243,"loyals",98,3324
+"Evan_Henry",221,"Others",105,924
+"Vivek_Sundaresam",111,"lost n cheap",221,1055
+"Eva_Jacobs",313,"Others",57,2657
+"James_Galang",444,"best.customers",1,6367
+"Pete_Kriz",444,"best.customers",9,8647
+"Muhammed_Yedwab",344,"loyals",71,4154
+"Jack_O'Briant",343,"loyals",57,3256
+"Nick_Radford",113,"Others",210,2368
+"Clytie_Kelty",343,"loyals",43,2373
+"Brendan_Sweed",323,"Others",35,2454
+"Greg_Guthrie",342,"loyals",43,2223
+"Nora_Preis",234,"big spenders",138,7903
+"Robert_Barroso",111,"lost n cheap",648,222
+"Roland_Schwarz",334,"big spenders",36,4160
+"Debra_Catini",412,"Others",23,1174
+"Anthony_Johnson",234,"big spenders",166,4502
+"Bryan_Mills",142,"loyals",218,1339
+"Dennis_Pardue",144,"loyals",358,5482
+"George_Zrebassa",213,"Others",157,2454
+"Deborah_Brumfield",334,"big spenders",53,4656
+"Roger_Demir",442,"loyals",21,1420
+"Kristina_Nunn",233,"Others",98,2281
+"Philip_Brown",232,"Others",97,1456
+"Eric_Hoffmann",131,"Others",217,684
+"Shui_Tom",231,"Others",125,432
+"Bill_Tyler",122,"Others",302,2187
+"Laura_Armstrong",244,"loyals",154,8675
+"Marc_Crier",233,"Others",76,2727
+"Jennifer_Patt",332,"Others",37,1669
+"Rick_Duston",334,"big spenders",72,4272
+"Delfina_Latchford",432,"Others",22,1459
+"Erin_Smith",444,"best.customers",28,4659
+"Ed_Jacobs",112,"Others",302,2163
+"Anthony_Jacobs",334,"big spenders",75,4868
+"Daniel_Byrd",432,"Others",21,2172
+"Magdelene_Morse",212,"Others",168,1315
+"Denny_Ordway",242,"loyals",133,1299
+"Christine_Sundaresam",443,"loyals",6,3202
+"John_Castell",243,"loyals",158,2773
+"Deanra_Eno",113,"Others",719,2550
+"Anthony_Rawles",334,"big spenders",58,4523
+"Natalie_DeCherney",444,"best.customers",27,4326
+"Charles_Sheldon",111,"lost n cheap",232,844
+"Linda_Cazamias",334,"big spenders",41,4492
+"Victoria_Pisteka",333,"Others",75,3361
+"Lena_Hernandez",443,"loyals",21,2296
+"Patrick_Gardner",343,"loyals",36,3087
+"Ben_Wallace",122,"Others",203,1739
+"Barbara_Fisher",231,"Others",91,600
+"Lisa_Ryan",212,"Others",132,1879
+"Luke_Foster",434,"big spenders",22,3931
+"Stephanie_Phelps",142,"loyals",386,1873
+"Maureen_Gastineau",213,"Others",92,2350
+"Lena_Creighton",444,"best.customers",16,7661
+"Ben_Ferrer",444,"best.customers",16,5907
+"Emily_Burns",243,"loyals",100,2768
+"Emily_Ducich",233,"Others",135,3486
+"Alan_Schoenberger",414,"big spenders",22,4261
+"Tom_Boeckenhauer",134,"big spenders",202,9133
+"Michelle_Moray",333,"Others",61,2750
+"Rick_Hansen",313,"Others",32,3622
+"John_Lee",444,"best.customers",21,9801
+"Corey_Roper",111,"lost n cheap",470,476
+"Rob_Williams",243,"loyals",89,3279
+"Nicole_Hansen",133,"Others",189,2673
+"Tom_Stivers",212,"Others",172,2054
+"Alyssa_Tate",422,"Others",21,1171
+"Kelly_Lampkin",434,"big spenders",16,5016
+"Don_Jones",333,"Others",48,2502
+"Jim_Karlsson",333,"Others",61,3761
+"Nathan_Mautz",234,"big spenders",160,6460
+"Eileen_Kiefer",312,"Others",44,1302
+"Nat_Carroll",113,"Others",224,2462
+"Giulietta_Dortch",412,"Others",5,1888
+"David_Philippe",111,"lost n cheap",812,1059
+"Katrina_Edelman",432,"Others",26,1686
+"Phillina_Ober",211,"Others",86,1056
+"Jas_O'Carroll",222,"Others",92,1935
+"Kean_Nguyen",312,"Others",52,2172
+"Liz_Willingham",112,"Others",205,1259
+"Sean_Christensen",434,"big spenders",29,3980
+"Darrin_Sayre",212,"Others",93,1762
+"Logan_Haushalter",142,"loyals",385,1740
+"Astrea_Jones",311,"Others",74,629
+"Sandra_Flanagan",331,"Others",59,764
+"Katherine_Ducich",322,"Others",41,1889
+"Aaron_Hawkins",432,"Others",12,1744
+"Becky_Castell",143,"loyals",202,2934
+"Vicky_Freymann",411,"Others",13,849
+"Tracy_Hopkins",334,"big spenders",72,4233
+"Chloris_Kastensmidt",343,"loyals",39,3157
+"Julie_Prescott",242,"loyals",102,1707
+"Gary_Hansen",343,"loyals",75,2819
+"Erin_Ashbrook",243,"loyals",152,2847
+"Maribeth_Dona",233,"Others",117,3766
+"Dorothy_Badders",234,"big spenders",107,3908
+"Nick_Crebassa",434,"big spenders",6,8241
+"Xylona_Preis",343,"loyals",43,2375
+"Naresj_Patel",424,"big spenders",25,5530
+"Jason_Fortune-",111,"lost n cheap",225,955
+"Tiffany_House",231,"Others",117,1021
+"Filia_McAdams",443,"loyals",7,2456
+"Andrew_Roberts",411,"Others",14,265
+"Luke_Schmidt",221,"Others",96,1010
+"Dianna_Arnett",111,"lost n cheap",352,158
+"Liz_Carlisle",312,"Others",54,2095
+"Ryan_Crowe",221,"Others",110,887
+"Ann_Blume",312,"Others",50,1515
+"Roland_Fjeld",233,"Others",89,2342
+"Brosina_Hoffman",434,"big spenders",23,6255
+"Shahid_Hopkins",442,"loyals",23,2181
+"Nathan_Gelder",312,"Others",48,1396
+"Victoria_Wilson",444,"best.customers",28,6134
+"Sheri_Gordon",232,"Others",183,1885
+"Clay_Ludtke",144,"loyals",284,10879
+"Luke_Weiss",434,"big spenders",21,5420
+"Jamie_Frazer",333,"Others",65,2279
+"Kean_Thornton",244,"loyals",100,4643
+"Michael_Stewart",421,"Others",26,855
+"Marc_Harrigan",223,"Others",119,2394
+"Dean_percer",244,"loyals",84,7199
+"Sanjit_Chand",144,"loyals",349,14143
+"Michelle_Ellison",212,"Others",92,1257
+"Jeremy_Farry",241,"loyals",121,1082
+"Mathew_Reese",211,"Others",125,640
+"Larry_Hughes",211,"Others",151,288
+"Mitch_Willingham",314,"big spenders",44,5254
+"Paul_MacIntyre",112,"Others",386,1406
+"Rick_Bensley",444,"best.customers",9,4716
+"Michael_Granlund",241,"loyals",99,777
+"Katherine_Hughes",423,"Others",1,3101
+"Chad_Sievert",111,"lost n cheap",489,885
+"Maxwell_Schwartz",243,"loyals",121,3145
+"Justin_Deggeller",334,"big spenders",41,8828
+"Mike_Pelletier",444,"best.customers",16,5089
+"Harold_Dahlen",111,"lost n cheap",769,251
+"Yoseph_Carroll",414,"big spenders",4,5455
+"Sung_Pak",244,"loyals",79,4283
+"Denise_Monton",434,"big spenders",22,4075
+"Duane_Noonan",132,"Others",217,2139
+"Maribeth_Schnelling",144,"loyals",273,7443
+"Sarah_Brown",124,"big spenders",188,6412
+"Dorothy_Wardle",132,"Others",242,1205
+"Resi_P?lking",344,"loyals",33,5154
+"Saphhira_Shifley",432,"Others",15,1324
+"Julie_Kriz",243,"loyals",117,2934
+"Irene_Maddox",134,"big spenders",390,4931
+"Russell_D'Ascenzo",311,"Others",42,971
+"Patrick_O'Donnell",433,"Others",0,2494
+"William_Brown",444,"best.customers",20,6159
+"Thomas_Seio",134,"big spenders",198,5372
+"George_Ashbrook",234,"big spenders",149,3921
+"Sam_Craven",113,"Others",781,3364
+"Mary_O'Rourke",311,"Others",72,922
+"Odella_Nelson",142,"loyals",410,1567
+"Speros_Goranitis",223,"Others",108,3125
+"Brian_Thompson",433,"Others",20,3196
+"Harold_Pawlan",432,"Others",30,1990
+"Marina_Lichtenstein",343,"loyals",69,2723
+"John_Stevenson",114,"lost",534,3868
+"Jonathan_Doherty",144,"loyals",394,7610
+"Michael_Nguyen",323,"Others",34,2477
+"Andy_Reiter",424,"big spenders",6,6609
+"Alejandro_Ballentine",241,"loyals",166,914
+"Sean_Braxton",334,"big spenders",47,8058
+"Suzanne_McNair",444,"best.customers",25,5565
+"Frank_Merwin",343,"loyals",36,3737
+"Adrian_Hane",332,"Others",60,1734
+"Sibella_Parks",122,"Others",327,1307
+"Julia_Dunbar",111,"lost n cheap",300,696
+"Eric_Barreto",211,"Others",161,944
+"David_Wiener",321,"Others",69,1080
+"Tamara_Chand",114,"lost",399,19052
+"Roy_Franz?sisch",431,"Others",6,945
+"Pauline_Johnson",232,"Others",134,1824
+"Randy_Ferguson",133,"Others",390,3310
+"Stefanie_Holloman",112,"Others",765,2096
+"Tracy_Blumstein",244,"loyals",107,4737
+"Maya_Herman",232,"Others",98,2203
+"Shirley_Schmidt",111,"lost n cheap",491,613
+"Matt_Abelman",344,"loyals",64,4300
+"Sara_Luxemburg",333,"Others",70,3053
+"Cari_Schnelling",221,"Others",162,537
+"Dianna_Vittorini",423,"Others",29,3342
+"Corey_Catlett",333,"Others",34,2541
+"Giulietta_Weimer",432,"Others",28,2190
+"Gary_Zandusky",444,"best.customers",7,4354
+"Lynn_Smith",321,"Others",34,1007
+"Max_Engle",432,"Others",28,1909
+"Lisa_DeCherney",112,"Others",414,1962
+"Keith_Dawkins",244,"loyals",112,8182
+"Pauline_Webber",343,"loyals",46,3455
+"Allen_Goldenen",211,"Others",114,201
+"Brian_Moss",344,"loyals",33,7295
+"Nona_Balk",442,"loyals",19,1971
+"Maris_LaWare",323,"Others",54,2922
+"Berenike_Kampe",221,"Others",77,660
+"Brian_Stugart",113,"Others",582,3288
+"Shahid_Shariari",223,"Others",110,3057
+"Joe_Elijah",344,"loyals",46,8698
+"Valerie_Dominguez",124,"big spenders",581,6442
+"Rick_Reed",223,"Others",170,3301
+"Henry_Goldwyn",443,"loyals",23,3249
+"Larry_Tron",411,"Others",26,330
+"Paul_Prost",244,"loyals",97,7254
+"Zuschuss_Carroll",344,"loyals",54,8027
+"Pamela_Stobb",222,"Others",107,2182
+"Harold_Ryan",234,"big spenders",159,5249
+"Hunter_Lopez",324,"big spenders",43,12874
+"Cathy_Prescott",234,"big spenders",82,5402
+"Candace_McMahon",222,"Others",131,1674
+"Matt_Collister",323,"Others",51,2426
+"Brooke_Gillingham",322,"Others",36,1873
+"Christopher_Schild",443,"loyals",2,3651
+"Natalie_Fritzler",234,"big spenders",79,8321
+"Erin_Mull",311,"Others",47,229
+"Quincy_Jones",444,"best.customers",25,6109
+"Anne_Pryor",332,"Others",41,1638
+"Alex_Avila",114,"lost",184,5564
+"Alan_Dominguez",434,"big spenders",29,6107
+"Greg_Tran",344,"loyals",36,11820
+"Christina_Anderson",343,"loyals",56,2648
+"Mary_Zewe",123,"Others",282,2565
+"Alan_Shonely",131,"Others",192,585
+"Scott_Cohen",133,"Others",187,3730
+"Ted_Trevino",334,"big spenders",31,4915
+"Peter_B?hler",311,"Others",57,689
+"Ruben_Ausman",334,"big spenders",43,3833
+"Ken_Black",143,"loyals",230,2746
+"Harry_Marie",444,"best.customers",2,8237
+"Tim_Brockman",132,"Others",349,1603
+"Kimberly_Carter",311,"Others",57,1145
+"Alyssa_Crouse",111,"lost n cheap",232,926
+"Seth_Vernon",244,"loyals",101,11471
+"Tamara_Dahlen",342,"loyals",37,1435
+"Joni_Sundaresam",111,"lost n cheap",463,470
+"Trudy_Glocke",212,"Others",114,2075
+"Cari_Sayre",212,"Others",91,1279
+"Toby_Braunhardt",122,"Others",583,2197
+"Allen_Armold",441,"loyals",19,1057
+"Lycoris_Saunders",111,"lost n cheap",777,368
+"Cassandra_Brandow",344,"loyals",47,6076
+"Jeremy_Pistek",433,"Others",8,3636
+"Ken_Brennan",431,"Others",1,984
+"Shahid_Collister",444,"best.customers",30,5993
+"Toby_Ritter",111,"lost n cheap",193,676
+"Guy_Armstrong",442,"loyals",5,1398
+"Lena_Radford",424,"big spenders",26,5142
+"Neil_Ducich",223,"Others",183,2894
+"Dianna_Wilson",114,"lost",217,5272
+"Joseph_Airdo",234,"big spenders",92,6492
+"Michelle_Arnett",123,"Others",186,2453
+"Karen_Ferguson",234,"big spenders",97,10605
+"Alice_McCarthy",411,"Others",28,814
+"Frank_Olsen",343,"loyals",38,2680
+"Mike_Caudle",112,"Others",369,1582
+"Katherine_Nockton",443,"loyals",19,2618
+"Adam_Shillingsburg",443,"loyals",28,3256
+"Jessica_Myrick",232,"Others",102,1733
+"David_Smith",443,"loyals",23,2881
+"Maurice_Satty",122,"Others",413,1613
+"Mark_Hamilton",233,"Others",85,2456
+"Sue_Ann_Reed",344,"loyals",63,4766
+"Dorris_liebe",211,"Others",119,756
+"Khloe_Miller",411,"Others",15,454
+"Katherine_Murray",334,"big spenders",56,5620
+"Steven_Roelle",134,"big spenders",196,4346
+"Carl_Weiss",421,"Others",22,1138
+"MaryBeth_Skach",111,"lost n cheap",434,475
+"Rob_Lucas",234,"big spenders",121,6236
+"Chuck_Magee",111,"lost n cheap",436,288
+"Lauren_Leatherbury",123,"Others",249,2741
+"Mike_Vittorini",432,"Others",19,1735
+"Emily_Phan",444,"best.customers",12,5479
+"Tony_Sayre",422,"Others",11,2243
+"Steven_Ward",111,"lost n cheap",534,759
+"Susan_Pistek",324,"big spenders",70,3991
+"Melanie_Seite",111,"lost n cheap",452,371
+"Steven_Cartwright",144,"loyals",187,5225
+"Hilary_Holden",311,"Others",72,218
+"Nathan_Cano",322,"Others",41,2218
+"Patrick_Jones",332,"Others",39,1219
+"Corey-Lock",112,"Others",549,1300
+"Chad_Cunningham",122,"Others",457,1771
+"Penelope_Sewall",134,"big spenders",236,6843
+"Sonia_Cooley",211,"Others",92,902
+"Guy_Phonely",111,"lost n cheap",765,237
+"Patrick_Ryan",312,"Others",36,1840
+"Lindsay_Shagiari",443,"loyals",20,2988
+"Mike_Gockenbach",213,"Others",84,3062
+"Doug_Bickford",332,"Others",33,1988
+"Trudy_Brown",443,"loyals",30,2798
+"Bart_Pistole",443,"loyals",17,2441
+"Keith_Herrera",434,"big spenders",22,5953
+"Frank_Preis",434,"big spenders",23,4047
+"Jack_Lebron",422,"Others",8,1215
+"Shirley_Jackson",112,"Others",253,1319
+"Roy_Collins",121,"Others",369,967
+"Natalie_Webber",234,"big spenders",172,7234
+"Katharine_Harms",333,"Others",40,3313
+"Edward_Hooks",244,"loyals",135,10311
+"Brad_Norvell",411,"Others",24,266
+"Carol_Triggs",233,"Others",96,3242
+"Gary_Mitchum",423,"Others",16,3078
+"Raymond_Messe",122,"Others",345,1453
+"Bobby_Trafton",111,"lost n cheap",560,604
+"Deirdre_Greer",313,"Others",32,3195
+"Maureen_Gnade",112,"Others",555,1343
+"Erin_Creighton",311,"Others",53,462
+"Cynthia_Delaney",112,"Others",399,1859
+"Becky_Martin",114,"lost",307,11790
+"Toby_Swindell",111,"lost n cheap",226,976
+"Erica_Hernandez",432,"Others",2,1220
+"George_Bell",342,"loyals",62,1570
+"Tanja_Norvell",233,"Others",90,3130
+"Mark_Cousins",114,"lost",399,4432
+"Sharelle_Roach",413,"Others",8,3233
+"Bradley_Drucker",324,"big spenders",35,4411
+"Toby_Carlisle",434,"big spenders",27,4266
+"Cynthia_Arntzen",233,"Others",120,3041
+"Kelly_Williams",111,"lost n cheap",771,449
+"Julie_Creighton",311,"Others",57,858
+"Ross_Baird",334,"big spenders",32,5633
+"Barry_Franz",312,"Others",39,1334
+"Charles_Crestani",233,"Others",106,2472
+"Mick_Brown",332,"Others",44,1429
+"Damala_Kotsonis",443,"loyals",21,3256
+"Gene_McClure",242,"loyals",106,1255
+"Joel_Eaton",344,"loyals",51,6761
+"Sarah_Foster",343,"loyals",59,3424
+"Harry_Greene",311,"Others",54,785
+"Troy_Staebel",333,"Others",55,2821
+"Jack_Garza",113,"Others",758,2358
+"Scot_Wooten",231,"Others",81,1085
+"Ivan_Gibson",311,"Others",71,744
+"Dan_Lawera",232,"Others",100,1503
+"Anna_Andreadi",324,"big spenders",55,5087
+"Zuschuss_Donatelli",112,"Others",202,1494
+"Ken_Lonsdale",344,"loyals",47,14174
+"Denny_Joy",112,"Others",637,2012
+"Heather_Kirkland",234,"big spenders",151,4878
+"Gary_Hwang",314,"big spenders",50,4174
+"John_Murray",234,"big spenders",109,7624
+"Dan_Campbell",343,"loyals",37,3335
+"Sean_Miller",214,"big spenders",79,25042
+"Anne_McFarland",234,"big spenders",162,5664
+"Mark_Packer",133,"Others",719,3206
+"Kean_Takahito",133,"Others",391,3059
+"Annie_Thurman",444,"best.customers",13,3831
+"Helen_Abelman",332,"Others",69,2163
+"Ellis_Ballard",214,"big spenders",90,4359
+"Carlos_Daly",312,"Others",40,2035
+"Aleksandra_Gannaway",211,"Others",118,368
+"Jim_Kriz",244,"loyals",180,4762
+"Beth_Fritzler",311,"Others",57,792
+"Ross_DeVincentis",431,"Others",14,1136
+"Thea_Hudgings",313,"Others",58,2943
+"Sally_Matthias",111,"lost n cheap",421,244
+"Annie_Zypern",222,"Others",160,1623
+"Mark_Van_Huff",442,"loyals",27,1562
+"Pete_Armstrong",221,"Others",103,730
+"Patrick_O'Brill",444,"best.customers",4,7474
+"Phillip_Breyer",111,"lost n cheap",688,133
+"Ruben_Dartt",243,"loyals",114,3134
+"Monica_Federle",412,"Others",7,1758
+"Rick_Huthwaite",124,"big spenders",467,6978
+"Joni_Blumstein",111,"lost n cheap",737,900
+"Pamela_Coakley",412,"Others",2,1832
+"Michelle_Huthwaite",313,"Others",49,2986
+"Sonia_Sunley",121,"Others",432,418
+"Joe_Kamberova",244,"loyals",84,4866
+"Steve_Chapman",243,"loyals",89,2578
+"Maria_Bertelson",342,"loyals",48,1548
+"Christina_VanderZanden",113,"Others",254,2830
+"Valerie_Takahito",112,"Others",1000,1736
+"Nicole_Brennan",111,"lost n cheap",1166,274
+"Brian_DeCherney",322,"Others",69,1539
+"Ivan_Liston",234,"big spenders",142,5040
+"Brian_Derr",411,"Others",9,583
+"Aaron_Bergman",111,"lost n cheap",415,887
+"David_Flashing",113,"Others",700,2391
+"Tracy_Collins",431,"Others",4,743
+"Thea_Hendricks",113,"Others",344,2424
+"Herbert_Flentye",433,"Others",21,2533
+"Beth_Paige",433,"Others",12,2474
+"Alan_Hwang",444,"best.customers",6,4806
+"Craig_Carreira",433,"Others",29,2270
+"Ralph_Arnett",443,"loyals",5,2618
+"Tamara_Manning",233,"Others",103,2955
+"Steve_Carroll",222,"Others",126,1255
+"Gary_McGarr",233,"Others",83,3584
+"Rachel_Payne",111,"lost n cheap",496,954
+"Andrew_Allen",112,"Others",259,1791
+"Barry_Gonzalez",433,"Others",28,2799
+"Ashley_Jarboe",232,"Others",85,1838
+"Jennifer_Ferguson",423,"Others",2,2372
+"Erica_Smith",313,"Others",40,3511
+"Joy_Smith",423,"Others",28,2517
+"Michael_Chen",434,"big spenders",1,3807
+"Frank_Atkinson",233,"Others",97,2983
+"Vivek_Gonzalez",221,"Others",154,846
+"Brian_Dahlen",233,"Others",97,3289
+"Dean_Katz",444,"best.customers",10,4801
+"Justin_MacKendrick",343,"loyals",57,2834
+"Allen_Rosenblatt",212,"Others",125,2236
+"Helen_Andreada",433,"Others",20,2583
+"Sanjit_Engle",444,"best.customers",9,12210
+"Robert_Marley",414,"big spenders",6,5979
+"Andy_Gerbode",112,"Others",845,1456
+"Kelly_Andreada",332,"Others",36,1520
+"Noel_Staavos",243,"loyals",174,2965
+"Grant_Thornton",314,"big spenders",56,9350
+"Liz_Pelletier",311,"Others",40,757
+"Randy_Bradley",311,"Others",68,1008
+"Adam_Hart",343,"loyals",34,3249
+"Anna_H?berlin",144,"loyals",410,7888
+"Darrin_Martin",334,"big spenders",57,6346
+"Michael_Kennedy",433,"Others",28,2302
+"Paul_Van_Hugh",213,"Others",89,2876
+"Angele_Hood",411,"Others",21,738
+"Bart_Folk",411,"Others",25,274
+"Darren_Koutras",412,"Others",7,1687
+"Kristen_Hastings",434,"big spenders",2,5991
+"Karen_Carlisle",122,"Others",407,2121
+"Tracy_Zic",312,"Others",35,1707
+"Thomas_Brumley",311,"Others",49,816
+"Thomas_Thornton",232,"Others",183,1428
+"Hunter_Glantz",433,"Others",6,3690
+"Richard_Eichhorn",111,"lost n cheap",302,877
+"Pierre_Wener",134,"big spenders",464,3922
+"Rob_Dowd",243,"loyals",180,2914
+"Grace_Kelly",244,"loyals",112,6499
+"Bruce_Geld",321,"Others",57,1006
+"Matthew_Clasen",111,"lost n cheap",189,795
+"Karen_Daniels",114,"lost",484,8282
+"Ricardo_Emerson",111,"lost n cheap",1098,48
+"Barry_Franz?sisch",333,"Others",74,2889
+"Valerie_Mitchum",333,"Others",54,2455
+"David_Kendrick",411,"Others",10,798
+"Peter_Fuller",114,"lost",835,9063
+"Matthew_Grinstein",433,"Others",29,3784
+"Jamie_Kunitz",314,"big spenders",61,4427
+"Noah_Childs",112,"Others",204,1821
+"Craig_Reiter",212,"Others",78,1600
+"Dorothy_Dickinson",321,"Others",41,269
+"Beth_Thompson",113,"Others",336,2568
+"Maria_Etezadi",344,"loyals",42,10663
+"Richard_Bierner",433,"Others",19,2664
+"Carol_Adams",224,"big spenders",96,3790
+"Bill_Shonely",114,"lost",558,10502
+"Eugene_Moren",324,"big spenders",48,4589
+"Paul_Lucas",411,"Others",15,240
+"Aimee_Bixby",311,"Others",41,968
+"Nicole_Fjeld",232,"Others",114,2031
+"Barry_Blumstein",211,"Others",105,744
+"Fred_Hopkins",434,"big spenders",5,6987
+"Joseph_Holt",424,"big spenders",29,7955
+"Ryan_Akin",312,"Others",61,1686
+"Sylvia_Foulston",343,"loyals",48,3336
+"Claudia_Bergmann",134,"big spenders",197,4246
+"Heather_Jas",211,"Others",126,359
+"Ann_Chong",413,"Others",6,2538
+"Charlotte_Melton",422,"Others",8,1475
+"Philip_Fox",123,"Others",196,2770
+"Max_Jones",434,"big spenders",22,6321
+"David_Bremer",333,"Others",48,2974
+"Sanjit_Jacobs",244,"loyals",95,3949
+"Katrina_Willman",214,"big spenders",96,4417
+"John_Huston",221,"Others",174,529
+"Helen_Wasserman",234,"big spenders",117,9299
+"Edward_Nazzal",112,"Others",287,2200
+"Joel_Jenkins",111,"lost n cheap",753,195
+"Benjamin_Venier",112,"Others",334,1522
+"Shaun_Chance",332,"Others",36,1875
+"Dan_Reichenbach",444,"best.customers",3,6528
+"Hallie_Redmond",412,"Others",13,1299
+"Lori_Olson",411,"Others",2,644
+"Tracy_Poddar",112,"Others",350,1937
+"Frank_Carlisle",333,"Others",70,3419
+"Jonathan_Howell",331,"Others",41,959
+"Andrew_Gjertsen",233,"Others",78,2356
+"Brendan_Murry",221,"Others",100,809
+"Meg_Tillman",323,"Others",49,2889
+"Chad_McGuire",412,"Others",8,1662
+"Christine_Phan",234,"big spenders",160,5889
+"Dana_Kaydos",314,"big spenders",45,4282
+"Guy_Thornton",311,"Others",34,227
+"Julia_West",112,"Others",461,1429
+"Eugene_Barchas",223,"Others",113,3072
+"Bart_Watters",234,"big spenders",121,4751
+"Brenda_Bowman",444,"best.customers",28,6766
+"Juliana_Krohn",413,"Others",28,3748
+"Fred_Chung",134,"big spenders",184,3889
+"Julia_Barnett",413,"Others",7,2518
+"Kalyca_Meade",423,"Others",14,2260
+"Olvera_Toch",314,"big spenders",65,3819
+"Craig_Carroll",113,"Others",799,2854
+"Denise_Leinenbach",311,"Others",57,584
+"Rob_Haberlin",112,"Others",534,2086
+"Craig_Yedwab",333,"Others",60,2900
+"Ritsa_Hightower",111,"lost n cheap",519,740
+"Toby_Gnade",113,"Others",337,3059
+"Dave_Kipp",333,"Others",42,2652
+"Michael_Paige",344,"loyals",72,3983
+"Anthony_Garverick",211,"Others",77,171
+"Lindsay_Castell",113,"Others",436,3247
+"Victoria_Brennan",322,"Others",54,2006
+"Jeremy_Ellison",122,"Others",193,1388
+"Katrina_Bavinger",211,"Others",117,909
+"John_Lucas",123,"Others",614,2725
+"Daniel_Lacy",323,"Others",57,3273
+"Fred_McMath",243,"loyals",145,2523
+"Eleni_McCrary",213,"Others",132,2567
+"Lisa_Hazard",111,"lost n cheap",239,318
+"Arthur_Gainer",244,"loyals",96,4511
+"Linda_Southworth",223,"Others",178,2845
+"Brad_Eason",122,"Others",254,1727
+"Alan_Barnes",431,"Others",25,1114
+"Theone_Pippenger",444,"best.customers",8,4455
+"Steve_Nguyen",233,"Others",79,3129
+"Maria_Zettner",411,"Others",30,594
+"Neil_Knudson",331,"Others",70,572
+"Jesus_Ocampo",111,"lost n cheap",215,1091
+"Roger_Barcio",312,"Others",54,2068
+"Muhammed_MacIntyre",241,"loyals",85,775
+"Eric_Murdock",211,"Others",151,934
+"Bill_Donatelli",344,"loyals",33,5719
+"Jennifer_Jackson",111,"lost n cheap",483,710
+"Fred_Wasserman",111,"lost n cheap",362,81
+"Jennifer_Braxton",442,"loyals",7,1792
+"Jim_Epp",334,"big spenders",48,7755
+"Philisse_Overcash",244,"loyals",160,4893
+"Skye_Norling",222,"Others",111,1860
+"Bryan_Spruell",111,"lost n cheap",265,950
+"Doug_Jacobs",413,"Others",12,3357
+"Cathy_Hwang",112,"Others",691,1537
+"Rick_Wilson",234,"big spenders",120,7398
+"Alan_Haines",312,"Others",55,1587
+"Kelly_Collister",214,"big spenders",97,3908
+"Nora_Pelletier",122,"Others",406,1229
+"Doug_O'Connell",432,"Others",26,1268
+"Stuart_Van",212,"Others",76,1271
+"Justin_Hirsh",112,"Others",404,2257
+"Elpida_Rittenbach",112,"Others",421,1246
+"Jay_Kimmel",333,"Others",44,2710
+"Christopher_Martinez",314,"big spenders",37,8953
+"Edward_Becker",343,"loyals",35,3236
+"Bruce_Degenhardt",222,"Others",93,1527
+"Cindy_Schnelling",111,"lost n cheap",424,1077
+"Cyra_Reiten",212,"Others",85,1398
+"Anthony_Witt",411,"Others",20,649
+"Denny_Blanton",112,"Others",187,1711
+"Yana_Sorensen",434,"big spenders",9,6721
+"Roy_Phan",432,"Others",28,2170
+"Henry_MacAllister",111,"lost n cheap",247,737
+"Victor_Preis",411,"Others",30,994
+"Gene_Hale",112,"Others",387,1361
+"Dave_Poirier",432,"Others",6,2215
+"Jay_Fein",222,"Others",105,1913
+"Meg_O'Connel",232,"Others",104,1686
+"Sample_Company_A",344,"loyals",40,4625
+"John_Dryer",212,"Others",117,2153
+"Stephanie_Ulpright",433,"Others",20,2595
+"Tonja_Turnell",434,"big spenders",12,5365
+"Paul_Stevenson",332,"Others",69,1278
+"Tom_Prescott",214,"big spenders",104,5330
+"Muhammed_Lee",211,"Others",100,162
+"Bobby_Odegard",311,"Others",75,131
+"Trudy_Schmidt",113,"Others",238,3368
+"Anna_Gayman",233,"Others",97,3488
+"Jill_Fjeld",334,"big spenders",54,4198
+"Janet_Lee",212,"Others",119,2203
+"Nora_Paige",314,"big spenders",58,3909
+"Emily_Grady",412,"Others",22,1832
+"Maribeth_Yedwab",432,"Others",29,2254
+"Alex_Russell",211,"Others",111,1056
+"Giulietta_Baptist",414,"big spenders",13,4716
+"Stewart_Carmichael",334,"big spenders",41,4493
+"Corinna_Mitchell",424,"big spenders",27,6339
+"Amy_Hunt",113,"Others",230,2496
+"Darren_Budd",113,"Others",241,2840
+"Evan_Minnotte",211,"Others",158,367
+"Parhena_Norris",432,"Others",30,1467
+"Justin_Ritter",312,"Others",33,2202
+"Bill_Stewart",414,"big spenders",28,3888
+"Jill_Stevenson",212,"Others",119,1418
+"Nick_Zandusky",243,"loyals",85,2488
+"Arthur_Wiediger",333,"Others",46,2853
+"Robert_Dilbeck",213,"Others",114,2787
+"Sarah_Jordon",422,"Others",29,1341
+"Patrick_Bzostek",411,"Others",25,740
+"Carlos_Meador",111,"lost n cheap",708,565
+"Fred_Harton",113,"Others",212,2271
+"Sally_Hughsby",443,"loyals",29,3408
+"Theresa_Swint",122,"Others",504,2163
+"Adam_Bellavance",334,"big spenders",54,7756
+"Shaun_Weien",233,"Others",162,2923
+"Lena_Cacioppo",433,"Others",27,2580
+"Chuck_Clark",443,"loyals",0,2870
+"Tony_Chapman",242,"loyals",153,1244
+"Carlos_Soltero",443,"loyals",25,3038
+"Pauline_Chand",111,"lost n cheap",882,1062
+"Dionis_Lloyd",233,"Others",76,3540
+"Rose_O'Brian",334,"big spenders",35,3816
+"Liz_Thompson",333,"Others",34,2936
+"Sung_Shariari",211,"Others",120,965
+"Karen_Seio",111,"lost n cheap",295,89
+"Stuart_Calhoun",411,"Others",30,278
+"Matt_Hagelstein",212,"Others",155,1253
+"Michelle_Tran",112,"Others",203,1320
+"Dean_Braden",443,"loyals",9,2333
+"Becky_Pak",222,"Others",89,1698
+"James_Lanier",412,"Others",6,1572
+"Ralph_Kennedy",212,"Others",119,1460
+"Catherine_Glotzbach",321,"Others",49,905
+"Sean_O'Donnell",423,"Others",29,2603
+"Neoma_Murray",142,"loyals",244,2163
+"Tim_Taslimi",111,"lost n cheap",406,439
+"Sandra_Glassco",413,"Others",8,3406
+"Cathy_Armstrong",112,"Others",401,1680
+"Greg_Hansen",411,"Others",2,147
+"Eudokia_Martin",211,"Others",113,1040
+"Brendan_Dodson",111,"lost n cheap",278,321
+"Amy_Cox",434,"big spenders",11,5528
+"Brad_Thomas",111,"lost n cheap",659,415
+"Ben_Peterman",443,"loyals",1,3675
+"Art_Ferguson",332,"Others",41,2052
+"Carol_Darley",311,"Others",54,640
+"Chris_McAfee",113,"Others",385,2307
+"Clay_Rozendal",312,"Others",57,2149
+"Sung_Chung",211,"Others",131,281
+"Liz_Preis",433,"Others",9,3654
+"Alex_Grayson",411,"Others",8,662
+"Sally_Knutson",411,"Others",8,884
+"Bill_Overfelt",213,"Others",137,2684
+"Darrin_Van_Huff",411,"Others",19,1121
+"Roy_Skaria",411,"Others",19,23
+"Scot_Coram",214,"big spenders",149,4372
+"Barry_Pond",211,"Others",83,983
+"Bobby_Elias",213,"Others",98,2262
+"Craig_Leslie",213,"Others",105,2353
+"Jim_Sink",311,"Others",42,1131
+"Raymond_Buch",224,"big spenders",96,15117
+"Max_Ludwig",432,"Others",29,2072
+"Larry_Blacks",311,"Others",48,50
+"Charles_McCrossin",423,"Others",26,2533
+"Joni_Wasserman",432,"Others",5,1243
+"Ted_Butterfield",212,"Others",119,1469
+"Ed_Ludwig",211,"Others",77,125
+"Christy_Brittain",432,"Others",26,1950
+"Alejandro_Savely",423,"Others",19,3214
+"Maureen_Fritzler",111,"lost n cheap",421,936
+"Justin_Ellison",413,"Others",20,2698
+"Harold_Engle",411,"Others",12,884
+"Phillip_Flathmann",212,"Others",114,2207
+"Vivian_Mathis",211,"Others",117,381
+"Jason_Gross",422,"Others",2,2241
+"Todd_Boyes",211,"Others",146,834
+"Cynthia_Voltz",443,"loyals",5,2370
+"Joy_Bell-",331,"Others",43,644
+"Jim_Radford",112,"Others",593,1157
+"Caroline_Jumper",134,"big spenders",189,11166
+"Laurel_Beltran",234,"big spenders",152,4987
+"Bryan_Davis",121,"Others",327,658
+"Susan_Vittorini",432,"Others",2,1904
+"Troy_Blackwell",112,"Others",285,1387
+"Scott_Williamson",422,"Others",30,1966
+"Bill_Eplett",214,"big spenders",119,4205
+"Sean_Wendt",211,"Others",162,1019
+"Neola_Schneider",413,"Others",6,2576
+"Don_Weiss",211,"Others",98,343
+"Susan_MacKendrick",111,"lost n cheap",606,1043
+"Tom_Ashbrook",314,"big spenders",69,14595
+"Jane_Waco",324,"big spenders",42,7722
+"Anna_Chung",111,"lost n cheap",282,658
+"Christopher_Conant",314,"big spenders",43,12129
+"Erica_Bern",412,"Others",0,1644
+"Jill_Matthias",411,"Others",0,304
+"Susan_Gilcrest",111,"lost n cheap",226,49
+"Ken_Dana",112,"Others",289,2244
+"Robert_Waldorf",213,"Others",79,3496
+"Cindy_Chapman",342,"loyals",39,1660
+"Nancy_Lomonaco",312,"Others",58,1419
+"Anthony_O'Donnell",111,"lost n cheap",501,161
+"Aaron_Smayling",233,"Others",88,3050
+"Adrian_Shami",311,"Others",41,59
+"Ralph_Ritter",411,"Others",19,616
+"Peter_McVee",314,"big spenders",51,4115
+"Claire_Gute",112,"Others",338,1149
+"Lela_Donovan",111,"lost n cheap",552,5
+"Anemone_Ratner",111,"lost n cheap",534,88
+"Jason_Klamczynski",111,"lost n cheap",287,384
+"Carl_Jackson",111,"lost n cheap",365,17
+"Janet_Martin",323,"Others",37,3159
+"Rob_Beeghly",411,"Others",25,529
+"Michael_Dominguez",312,"Others",36,1205
+"Lindsay_Williams",323,"Others",33,3231
+"Christina_DeMoss",312,"Others",42,1206
+"Pete_Takahito",311,"Others",71,160
+"Jennifer_Halladay",411,"Others",5,310
+"Sarah_Bern",112,"Others",201,1349
+"Jenna_Caffey",211,"Others",175,1058
+"Tony_Molinari",211,"Others",130,1095
+"Henia_Zydlo",311,"Others",35,886
+"Michelle_Lonsdale",211,"Others",79,742
+"Patricia_Hirasaki",311,"Others",70,730
+"Mick_Hernandez",444,"best.customers",5,5503
+"Mitch_Gastineau",111,"lost n cheap",264,17
+"Ricardo_Sperren",213,"Others",76,3221
+"Jocasta_Rupert",311,"Others",68,864
+"Clay_Cheatham",411,"Others",27,113
+"Christine_Abelman",412,"Others",13,1422
+"Carl_Ludwig",212,"Others",106,1263
+"Theresa_Coyne",211,"Others",106,1038
+"Mike_Kennedy",111,"lost n cheap",240,1032
+"Chuck_Sachs",411,"Others",27,551
+"Roland_Murray",111,"lost n cheap",299,98
+"Michael_Oakman",211,"Others",180,154
+"Thais_Sissman",111,"lost n cheap",357,5

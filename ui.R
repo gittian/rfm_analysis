@@ -29,7 +29,12 @@ shinyUI(fluidPage(
     mainPanel(
       tabsetPanel(type = "tabs",
                   
-                  tabPanel("Overview"),
+                  tabPanel("Overview",
+                           downloadButton('downloadData1','Download Example Data 1'),
+                           downloadButton('downloadData2','Download Example Segment 1'),
+                           downloadButton('downloadData3','Download Example Data 2'),
+                           downloadButton('downloadData4','Download Example Segment 2')
+                           ),
                   
                   tabPanel("Frequency table",
                            tags$style(type = "text/css", 
