@@ -243,32 +243,32 @@ shinyServer(function(input, output) {
 
   })
   
-  output$downloadData1 <- downloadHandler({
-    filename <- function(){"Example1.csv"}
-    content <- function(file){
+  output$downloadData1 <- downloadHandler(
+    filename = function(){ "Example1.csv" },
+    content = function(file){
       write.csv(read.csv("data/Example1.csv"),row.names = F)
     }
-  })
+  )
   
-  output$downloadData2 <- downloadHandler({
-    filename <- function(){"Example1.csv"}
-    content <- function(file){
+  output$downloadData2 <- downloadHandler(
+    filename = function(){"Example1.csv"},
+    content = function(file){
       write.csv(read.csv("data/Segment1.csv"),row.names = F)
     }
-  })
+  )
   
-  output$downloadData3 <- downloadHandler({
-    filename <- function(){"Example1.csv"}
-    content <- function(file){
+  output$downloadData3 <- downloadHandler(
+    filename = function(){"Example1.csv"},
+    content = function(file){
       write.csv(read.csv("data/Example2.csv"),row.names = F)
     }
-  })
+  )
   
-  output$downloadData4 <- downloadHandler({
-    filename <- function(){"Example1.csv"}
-    content <- function(file){
+  output$downloadData4 <- downloadHandler(
+    filename = function(){"Example1.csv"},
+    content = function(file){
       write.csv(read.csv("data/Segment2.csv"),row.names = F)
     }
-  })
+  )
   
 })
