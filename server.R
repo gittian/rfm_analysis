@@ -148,7 +148,7 @@ shinyServer(function(input, output) {
     
     min1 = min(test_r); max1 = max(test_r); lowmed1 = floor(max1/2)
     min1; max1; lowmed1
-    
+   
     rfm_segments = case_when(
       
       rfm_score == paste0(max1, max1, max1) %>% as.numeric() ~ "best.customers",
@@ -172,14 +172,14 @@ shinyServer(function(input, output) {
       arrange(desc(n)) %>%
       rename(Segment = segment, Count = n)
     
-    segment_data <- data.frame(rfm_segments$names(data)[1],rfm_score,rfm_segments$segment,rfm_segments$names(data)[2],rfm_segments$names(data)[4])
+    segment_data <- data.frame(rfm_segments[,2],rfm_score,rfm_segments[,1],rfm_segments[,3],rfm_segments[,5])
     
     return (segment_data)
   }
   
   segment <- reactive({
     val = segmentGenerator()
-    colnames(val) = c("names(data)[1]","rfm_score","segment","names(data)[2]","names(data)[4]")
+    colnames(val) = c("customer_id","rfm_score","segment","recency_days","revenue")
     return(val)
   })
   
@@ -198,9 +198,9 @@ shinyServer(function(input, output) {
 	  data <-
 	    rfm_segments %>% # data_frame() %>%
 	    group_by(segment) %>%
-	    select(segment, names(data)[2]) %>%
-	    summarize(median(names(data)[2])) %>%
-	    rename(segment = segment, avg_recency = `median(names(data)[2])`) %>%
+	    dplyr::select(segment, recency_days) %>%
+	    summarize(median(recency_days)) %>%
+	    rename(segment = segment, avg_recency = `median(recency_days)`) %>%
 	    arrange(avg_recency)
 
 	  n_fill <- nrow(data)
@@ -225,9 +225,9 @@ shinyServer(function(input, output) {
 	  data <-
 	    rfm_segments %>%
 	    group_by(segment) %>%
-	    select(segment, names(data)[4]) %>%
-	    summarize(median(names(data)[4])) %>%
-	    rename(segment = segment, avg_monetary = `median(names(data)[4])`) %>%
+	    dplyr::select(segment, revenue) %>%
+	    summarize(median(revenue)) %>%
+	    rename(segment = segment, avg_monetary = `median(revenue)`) %>%
 	    arrange(avg_monetary)
 
 	  n_fill <- nrow(data)

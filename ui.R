@@ -52,9 +52,8 @@ shinyUI(fluidPage(theme = "bootstrap.css",
                              br(),
                              tags$b("Segmentation data"),
                              tags$li("The input file has be in csv format."),
-                             tags$li("The first column has to be unique customer id."),
-                             tags$li("The subsequent columns has to be rfm_score,segment name, recency and revenue (in order)"),
-                             p("For convienience default segment names have been provided. You can always change the names and re-upload for updated results.")
+                             tags$li("For convienience default segment names have been provided. You can always change the names and re-upload for updated results."),
+                             tags$li("You may only modify the segment names. No other modifications should be made to the downloaded segment descriptions file. ")
                            ),  
                            br(),
                            p(downloadButton('downloadData1','Download Example Data 1 (works only in browser)')),
