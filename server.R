@@ -135,6 +135,7 @@ shinyServer(function(input, output) {
   segmentGenerator <- function(){
     
     data <- read.csv(input$data$datapath)
+    analysis_date <- lubridate::as_date('2007-01-01', tz = 'UTC')
     
     rfm_result <- rfm_table_customer(data = data,
                                      names(data)[1], 
@@ -196,7 +197,7 @@ shinyServer(function(input, output) {
   )
   
   output$segment1 <-renderPlot({
-    
+    analysis_date <- lubridate::as_date('2007-01-01', tz = 'UTC')
     req(input$segmentData)
 	  rfm_segments = read.csv(input$segmentData$datapath)
 	  # median recency
@@ -222,7 +223,7 @@ shinyServer(function(input, output) {
   })
 
   output$segment2 <-renderPlot({
-    
+    analysis_date <- lubridate::as_date('2007-01-01', tz = 'UTC')
     req(input$segmentData)
     rfm_segments = read.csv(input$segmentData$datapath)
 
