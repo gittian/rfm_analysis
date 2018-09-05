@@ -45,6 +45,7 @@ shinyServer(function(input, output) {
   output$graph1 <- renderPlot({
     req(input$data)
 	  data <- read.csv(input$data$datapath)
+	  analysis_date <- lubridate::as_date('2007-01-01', tz = 'UTC')
 	  ## use rfm::rfm_table_customer() func  
 	  rfm_result <- rfm_table_customer(data = data,
 	                                   names(data)[1], 
@@ -61,6 +62,7 @@ shinyServer(function(input, output) {
   output$graph2 <- renderPlot({
     req(input$data)
 	  data <- read.csv(input$data$datapath)
+	  analysis_date <- lubridate::as_date('2007-01-01', tz = 'UTC')
 	  ## use rfm::rfm_table_customer() func  
 	  rfm_result <- rfm_table_customer(data = data,
 	                                   names(data)[1], 
@@ -77,6 +79,7 @@ shinyServer(function(input, output) {
   output$graph3 <- renderPlot({
     req(input$data)
 	  data <- read.csv(input$data$datapath)
+	  analysis_date <- lubridate::as_date('2007-01-01', tz = 'UTC')
 	  ## use rfm::rfm_table_customer() func  
 	  rfm_result <- rfm_table_customer(data = data,
 	                                   names(data)[1], 
@@ -93,6 +96,7 @@ shinyServer(function(input, output) {
   output$graph4 <- renderPlot({
     req(input$data)
 	  data <- read.csv(input$data$datapath)
+	  analysis_date <- lubridate::as_date('2007-01-01', tz = 'UTC')
 	  ## use rfm::rfm_table_customer() func  
 	  rfm_result <- rfm_table_customer(data = data,
 	                                   names(data)[1], 
@@ -108,6 +112,7 @@ shinyServer(function(input, output) {
   output$graph5 <- renderPlot({
     req(input$data)
 	  data <- read.csv(input$data$datapath)
+	  analysis_date <- lubridate::as_date('2007-01-01', tz = 'UTC')
 	  ## use rfm::rfm_table_customer() func  
 	  rfm_result <- rfm_table_customer(data = data,
 	                                   names(data)[1], 
