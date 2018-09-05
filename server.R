@@ -11,14 +11,14 @@
 shinyServer(function(input, output) {
   
   output$freqDist <- renderPlot({
-    
+    req(input$data)
     data <- read.csv(input$data$datapath)
-    hist(data$recency_days, breaks=50, xlab="Days since last visit", ylab="Frequency in the dataset")
+    hist(data[,2], breaks=50, xlab="Days since last visit", ylab="Frequency in the dataset")
     
   })
   
   output$scoreHist <- renderPlot({
-    
+    req(input$data)
 	  data <- read.csv(input$data$datapath)
     analysis_date <- lubridate::as_date('2007-01-01', tz = 'UTC')
     
@@ -31,10 +31,10 @@ shinyServer(function(input, output) {
   
     ## use rfm::rfm_table_customer() func  
     rfm_result <- rfm_table_customer(data = data,
-                                    customer_id, 
-                                    number_of_orders,
-                                    recency_days, 
-                                    revenue, 
+                                    names(data)[1], 
+                                    names(data)[3],
+                                    names(data)[2], 
+                                    names(data)[4], 
                                     analysis_date,
                                     recency_bins = input$bins, frequency_bins = input$bins, monetary_bins = input$bins)    # 0.10 secs
   
@@ -43,14 +43,14 @@ shinyServer(function(input, output) {
   })
   
   output$graph1 <- renderPlot({
-	
+    req(input$data)
 	  data <- read.csv(input$data$datapath)
 	  ## use rfm::rfm_table_customer() func  
 	  rfm_result <- rfm_table_customer(data = data,
-	                                   customer_id, 
-	                                   number_of_orders,
-	                                   recency_days, 
-	                                   revenue, 
+	                                   names(data)[1], 
+	                                   names(data)[3],
+	                                   names(data)[2], 
+	                                   names(data)[4], 
 	                                   analysis_date,
 	                                   recency_bins = input$bins, frequency_bins = input$bins, monetary_bins = input$bins)    # 0.10 secs
     # Heat map output
@@ -59,14 +59,14 @@ shinyServer(function(input, output) {
   })
   
   output$graph2 <- renderPlot({
-    
+    req(input$data)
 	  data <- read.csv(input$data$datapath)
 	  ## use rfm::rfm_table_customer() func  
 	  rfm_result <- rfm_table_customer(data = data,
-	                                   customer_id, 
-	                                   number_of_orders,
-	                                   recency_days, 
-	                                   revenue, 
+	                                   names(data)[1], 
+	                                   names(data)[3],
+	                                   names(data)[2], 
+	                                   names(data)[4], 
 	                                   analysis_date,
 	                                   recency_bins = input$bins, frequency_bins = input$bins, monetary_bins = input$bins)    # 0.10 secs
     # bar chart output
@@ -75,14 +75,14 @@ shinyServer(function(input, output) {
   })
   
   output$graph3 <- renderPlot({
-    
+    req(input$data)
 	  data <- read.csv(input$data$datapath)
 	  ## use rfm::rfm_table_customer() func  
 	  rfm_result <- rfm_table_customer(data = data,
-	                                   customer_id, 
-	                                   number_of_orders,
-	                                   recency_days, 
-	                                   revenue, 
+	                                   names(data)[1], 
+	                                   names(data)[3],
+	                                   names(data)[2], 
+	                                   names(data)[4], 
 	                                   analysis_date,
 	                                   recency_bins = input$bins, frequency_bins = input$bins, monetary_bins = input$bins)    # 0.10 secs
     # histogram output
@@ -91,14 +91,14 @@ shinyServer(function(input, output) {
   })
   
   output$graph4 <- renderPlot({
-    
+    req(input$data)
 	  data <- read.csv(input$data$datapath)
 	  ## use rfm::rfm_table_customer() func  
 	  rfm_result <- rfm_table_customer(data = data,
-	                                   customer_id, 
-	                                   number_of_orders,
-	                                   recency_days, 
-	                                   revenue, 
+	                                   names(data)[1], 
+	                                   names(data)[3],
+	                                   names(data)[2], 
+	                                   names(data)[4], 
 	                                   analysis_date,
 	                                   recency_bins = input$bins, frequency_bins = input$bins, monetary_bins = input$bins)    # 0.10 secs
     rfm_order_dist(rfm_result)
@@ -106,14 +106,14 @@ shinyServer(function(input, output) {
   })
   
   output$graph5 <- renderPlot({
-    
+    req(input$data)
 	  data <- read.csv(input$data$datapath)
 	  ## use rfm::rfm_table_customer() func  
 	  rfm_result <- rfm_table_customer(data = data,
-	                                   customer_id, 
-	                                   number_of_orders,
-	                                   recency_days, 
-	                                   revenue, 
+	                                   names(data)[1], 
+	                                   names(data)[3],
+	                                   names(data)[2], 
+	                                   names(data)[4], 
 	                                   analysis_date,
 	                                   recency_bins = input$bins, frequency_bins = input$bins, monetary_bins = input$bins)    # 0.10 secs
     # recency vs freq scatterplot
@@ -132,10 +132,10 @@ shinyServer(function(input, output) {
     data <- read.csv(input$data$datapath)
     
     rfm_result <- rfm_table_customer(data = data,
-                                     customer_id, 
-                                     number_of_orders,
-                                     recency_days, 
-                                     revenue, 
+                                     names(data)[1], 
+                                     names(data)[3],
+                                     names(data)[2], 
+                                     names(data)[4], 
                                      analysis_date,
                                      recency_bins = input$bins, frequency_bins = input$bins, monetary_bins = input$bins)    # 0.10 secs
     rfm_order_dist(rfm_result)
@@ -172,14 +172,14 @@ shinyServer(function(input, output) {
       arrange(desc(n)) %>%
       rename(Segment = segment, Count = n)
     
-    segment_data <- data.frame(rfm_segments$customer_id,rfm_score,rfm_segments$segment,rfm_segments$recency_days,rfm_segments$revenue)
+    segment_data <- data.frame(rfm_segments$names(data)[1],rfm_score,rfm_segments$segment,rfm_segments$names(data)[2],rfm_segments$names(data)[4])
     
     return (segment_data)
   }
   
   segment <- reactive({
     val = segmentGenerator()
-    colnames(val) = c("customer_id","rfm_score","segment","recency_days","revenue")
+    colnames(val) = c("names(data)[1]","rfm_score","segment","names(data)[2]","names(data)[4]")
     return(val)
   })
   
@@ -198,9 +198,9 @@ shinyServer(function(input, output) {
 	  data <-
 	    rfm_segments %>% # data_frame() %>%
 	    group_by(segment) %>%
-	    select(segment, recency_days) %>%
-	    summarize(median(recency_days)) %>%
-	    rename(segment = segment, avg_recency = `median(recency_days)`) %>%
+	    select(segment, names(data)[2]) %>%
+	    summarize(median(names(data)[2])) %>%
+	    rename(segment = segment, avg_recency = `median(names(data)[2])`) %>%
 	    arrange(avg_recency)
 
 	  n_fill <- nrow(data)
@@ -225,9 +225,9 @@ shinyServer(function(input, output) {
 	  data <-
 	    rfm_segments %>%
 	    group_by(segment) %>%
-	    select(segment, revenue) %>%
-	    summarize(median(revenue)) %>%
-	    rename(segment = segment, avg_monetary = `median(revenue)`) %>%
+	    select(segment, names(data)[4]) %>%
+	    summarize(median(names(data)[4])) %>%
+	    rename(segment = segment, avg_monetary = `median(names(data)[4])`) %>%
 	    arrange(avg_monetary)
 
 	  n_fill <- nrow(data)
